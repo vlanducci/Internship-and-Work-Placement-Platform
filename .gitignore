@@ -1,12 +1,2 @@
 .venv
 
-fastapi
-uvicorn[standard]
-sqlalchemy
-asyncpg
-pydantic-settings
-sentence-transformers
-boto3
-python-multipart
-httpx
-weasyprint

@@ -7,4 +7,10 @@ app = FastAPI(
 
 @app.get("/health")
 def health_check():
-  return {"status": "healthy"}
+    return {"status": "healthy"}
+
+@app.get("/api/test")
+def test_connection():
+  return {
+    "message": "Frontend successfully connected to FastAPI"
+  }
