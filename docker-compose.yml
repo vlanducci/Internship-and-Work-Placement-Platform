@@ -1,3 +1,6 @@
+# docker-compose.yml
+# Configures a PostgreSQL 18 database container for local development, exposing the database to the backend and persisting data in a Docker volume.
+
 services:
   db:
     image: postgres:18
